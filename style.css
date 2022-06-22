@@ -1,4 +1,16 @@
 .swiper {
-  width: 600px;
-  height: 300px;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}
+.swiper-slide {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  display: inline;
+}
+.swiper-wrapper {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
 }
