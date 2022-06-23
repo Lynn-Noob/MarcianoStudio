@@ -4,21 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="styleshe
-    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!--Style carrossel-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--Stylesheet padrão-->
     <link rel="stylesheet" href="style.css" />
     <title>MarcianoStudio</title>
   </head>
   <body>
-    <header class="head">
-      <div class="head--logo">
-        <img src="#" alt="#" />
-      </div>
-      <div class="head--store">
-        <img src="#" alt="#" />
-      </div>
-      <div class="head--menu">
-        <img src="#" alt="#" />
+    <header>
+      <div class="head">
+        <div class="head--logo">
+          <img src="#" alt="Logo MarcianoStudio" />
+        </div>
+        <div class="head--store">
+          <img src="/assets/svg/shop-bag-icon.svg" alt="Sacola de compras" />
+        </div>
+        <div class="head--menu">
+          <img src="/assets/svg/menu-icon.svg" alt="Menu" />
+        </div>
       </div>
     </header>
     <main class="content">
@@ -26,12 +39,19 @@
         <img src="#" alt="#" />
       </section>
       <section class="content--about">
-        <div class="about--card1">
-          <img src="#" alt="#" />
+        <div class="about--card">
+          <div class="about--card--img">
+            <img src="/assets/svg/beard-icon.svg" alt="Icone de barba" />
+          </div>
           <p>Segurança e precisão em cada corte</p>
         </div>
-        <div class="about--card2">
-          <img src="#" alt="#" />
+        <div class="about--card">
+          <div class="about--card--img">
+            <img
+              src="/assets/svg/tattoo-machine.svg"
+              alt="Icone de máquina de tatuagem"
+            />
+          </div>
           <p>Trabalhando com qualidade e preços acessíveis</p>
         </div>
       </section>
@@ -62,11 +82,11 @@
                 />
               </div>
             </div>
-
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"><p>l</p></div>
-            <div class="swiper-button-next"><p>l</p></div>
-
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
           </div>
@@ -112,7 +132,9 @@
         <img src="#" alt="#" />
       </div>
     </footer>
+    <!--Js carrossel-->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--Js padrão-->
     <script src="main.js"></script>
   </body>
 </html>

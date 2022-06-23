@@ -1,16 +1,40 @@
 .swiper {
-  border: 1px solid black;
-  width: auto;
-  height: auto;
+  width: 600px;
+  height: 300px;
 }
-.swiper-slide {
+
+:root {
+  --purple: #302452;
+  --green: #1c4534;
+  --background-gray: #363636;
+  --middle-gray: #b6b6b6;
+  --lighter-gray: #d9d9d9;
+  --white: #ffffff;
+  --black: #000000;
+}
+body {
+  display: inline;
+  background-color: var(--background-gray);
+}
+.head {
   border: 1px solid black;
-  height: auto;
-  width: auto;
   display: inline;
 }
-.swiper-wrapper {
+.head--logo,
+.head--store,
+.head--menu {
+  display: inline;
+}
+.content--title {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--white);
+}
+.about--card {
   border: 1px solid black;
-  width: auto;
-  height: auto;
+}
+.about--card--img {
+  width: 50px;
+  height: 50px;
 }
