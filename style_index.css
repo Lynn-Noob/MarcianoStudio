@@ -25,6 +25,10 @@ body {
 .head--menu {
   display: inline;
 }
+.head--banner--img {
+  width: 600px;
+  height: 300px;
+}
 .content--title {
   font-family: poppins;
   font-weight: 600;
