@@ -1,8 +1,10 @@
+/*swiper*/
 .swiper {
   width: 600px;
   height: 300px;
 }
 
+/*variáveis*/
 :root {
   --purple: #302452;
   --green: #1c4534;
@@ -12,14 +14,18 @@
   --white: #ffffff;
   --black: #000000;
 }
+/*geral*/
 body {
   display: inline;
   background-color: var(--background-gray);
+  text-align: center;
 }
+/*cabeçalho*/
 .head {
   border: 1px solid black;
   display: inline;
 }
+
 .head--logo,
 .head--store,
 .head--menu {
